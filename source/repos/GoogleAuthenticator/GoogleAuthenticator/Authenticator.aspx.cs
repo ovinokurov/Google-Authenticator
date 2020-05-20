@@ -85,6 +85,7 @@ namespace GoogleAuthenticator
             Guid guid = Guid.NewGuid();
             //String uniqueUserKey = Convert.ToString(guid).Replace("-", "").Substring(0, 10);
             //String uniqueUserKey = "7b769307e9";
+            //Store Key
             String uniqueUserKey = "Vinokurov";
             AuthenticationCode = uniqueUserKey;
             Dictionary<String, String> result = new Dictionary<String, String>();
